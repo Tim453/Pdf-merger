@@ -16,7 +16,7 @@ class pdfui(QWidget):
         self.merge_button = QPushButton("Merge")
 
         self.bar = QProgressBar()
-        
+
         self.initUI()
 
 
@@ -54,7 +54,7 @@ class pdfui(QWidget):
         grid.addWidget(self.merge_button, 5, 2) 
 
     #    self.move(300, 150)
-        self.setWindowTitle('PyQt window')  
+        self.setWindowTitle('Pdf-merger')  
         self.show()
 
     def mergepdf(self):
